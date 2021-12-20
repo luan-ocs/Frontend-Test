@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Projeto Task List Maker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Teste pratico de um app de Todo-List.
 
-## Available Scripts
+### Pré-requisitos
 
-In the project directory, you can run:
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### `npm start`
+### 🎲 Rodando o Back End (servidor)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+# Clone este repositório
+$ git clone <https://github.com/luan-ocs/Frontend-Test>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Frontend-Test
 
-### `npm test`
+# Vá para a pasta Backend
+$ cd Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Instale as dependências
+$ npm install
 
-### `npm run build`
+# Execute a aplicação
+$ npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# O servidor inciará na porta:3001 - acesse <http://localhost:3001>
+```
+### 🎲 Rodando o Frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Vá para a pasta frontend
+$ cd frontend
 
-### `npm run eject`
+# Instale as dependências
+$ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Execute a aplicação
+$ npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🛠 Tecnologias
 
-## Learn More
+As seguintes ferramentas foram usadas na construção do projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [Styled-Components](https://styled-components.com/)
+- [Styled-Icons](https://styled-icons.dev/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Autor 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<a href="https://github.com/luan-ocs">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/78988879?s=400&u=34c3b61361455040821b4dfe8b0d79b88205e8f3&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Luan Otávio</b></sub></a>
+ 
+ Feito com ❤️ por Luan Otávio 👋🏽 Entre em contato!
+ 
+[![Linkedin Badge](https://img.shields.io/badge/-Luan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luan-ot%C3%A1vio-a10b511b4/)](https://www.linkedin.com/in/luan-ot%C3%A1vio-a10b511b4/) 
+[![Gmail Badge](https://img.shields.io/badge/-luanotaviocostasilva@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luanotaviocostasilva@gmail.com)](mailto:luanotaviocostasilva@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
